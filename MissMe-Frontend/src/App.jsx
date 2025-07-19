@@ -11,7 +11,7 @@ function App() {
     <div
       className={`${
         mode ? "bg-white" : "bg-slate-800"
-      } h-[100vh] overflow-auto`}
+      } h-[100dvh] overflow-auto`}
     >
       <Router>
         <div>
