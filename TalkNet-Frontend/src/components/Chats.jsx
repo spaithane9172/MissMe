@@ -99,9 +99,9 @@ const Chats = ({ userDetails, setUserDetails }) => {
               <input
                 placeholder="Message ..."
                 type="text"
-                className="flex w-full px-[0.5rem] py-[0.5rem] border-[1px] border-rose-600 rounded-full outline-none rounded-l-full"
+                className="flex w-full px-[1rem] py-[0.5rem] border-[1px] border-rose-600 rounded-full outline-none rounded-l-full focus:shadow-rose-400"
               />
-              <button className="bg-rose-600 text-white min-w-10 min-h-10 w-10 h-10 ml-2 rounded-full flex items-center justify-center text-base">
+              <button className="bg-rose-600 text-white min-w-10 min-h-10 ml-2 rounded-full flex items-center justify-center text-base">
                 <i className="fa-solid fa-paper-plane"></i>
               </button>
             </div>
